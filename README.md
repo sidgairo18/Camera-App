@@ -1,6 +1,6 @@
 # Camera-App
 This is a basic camera app built for android using CameraX.
-I had been looking online and on opensource code for basic camera apps, but most of them were either too complicated or used deprecated (legacy code).  
+I had been looking online and opensource code for basic camera apps, but most of them were either too complicated or used deprecated (legacy code).  
 
 The new [CameraX api](https://developer.android.com/training/camerax) from android, is an Android Jetpack library makes camera development very easy, and is a wrapper around [Camera2](https://developer.android.com/reference/android/hardware/camera2/package-summary). So one gets most of the functionality from Camera2 in a much simpler manner, which is sufficient for most use cases.
 
