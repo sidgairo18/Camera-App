@@ -1,6 +1,7 @@
 # Camera-App
 This is a basic camera app built for android using CameraX.
-I had been looking online and on opensource code for basic camera apps, but most of them were either too complicated or used deprecated (legacy code).
+I had been looking online and on opensource code for basic camera apps, but most of them were either too complicated or used deprecated (legacy code).  
+
 The new [CameraX api](https://developer.android.com/training/camerax) from android, is an Android Jetpack library makes camera development very easy, and is a wrapper around [Camera2](https://developer.android.com/reference/android/hardware/camera2/package-summary). So one gets most of the functionality from Camera2 in a much simpler manner, which is sufficient for most use cases.
 
 
@@ -87,7 +88,6 @@ Drawing the rectangle:
 ```
 val focusRects = listOf(RectF(event.x-rectSize, event.y-rectSize, event.x+rectSize, event.y+rectSize))
 rect_overlay.post { rect_overlay.drawRectBounds(focusRects) }
-
 ```
 
 ### Image Capture sound
@@ -97,7 +97,7 @@ val sound = MediaActionSound()
 sound.play(MediaActionSound.SHUTTER_CLICK)
 ```
 
-For the **zoom** functionality in view images, have used **[PhotoView](https://github.com/chrisbanes/PhotoView)** which works really well).
+For the **zoom** functionality in view images, have used **[PhotoView](https://github.com/chrisbanes/PhotoView)** which works really well.
 
 ## TODO
 ```
@@ -118,4 +118,4 @@ For the **zoom** functionality in view images, have used **[PhotoView](https://g
 * [Stackoverflow: PreviewView focus](https://stackoverflow.com/a/60585382)
 * [Stackoverflow: How to use manual focus in Android CameraX](https://stackoverflow.com/questions/59136897/how-to-use-manual-focus-in-android-camerax)
 * [Stackoverflow: How to draw on previewview](https://stackoverflow.com/questions/63090795/how-to-draw-on-previewview)
-* [PhotoView](https://github.com/chrisbanes/PhotoView)** which works really well)
+* [PhotoView](https://github.com/chrisbanes/PhotoView)
