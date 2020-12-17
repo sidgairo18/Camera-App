@@ -111,7 +111,7 @@ For the **zoom** functionality in view images, have used **[PhotoView](https://g
 **Note 2:** But this bundles the entire code in the form of an app which works.
 
 ## References
-* [Getting started with CameraX](Getting Started with CameraX) (a google colab notebook tutorial).
+* [Getting started with CameraX](https://codelabs.developers.google.com/codelabs/camerax-getting-started) (a google colab notebook tutorial).
 * [Android CameraX: Preview, Analyze, Capture.](https://proandroiddev.com/android-camerax-preview-analyze-capture-1b3f403a9395)
 * [Android CameraX: Control and Query the Camera.](https://proandroiddev.com/android-camerax-tap-to-focus-pinch-to-zoom-zoom-slider-eb88f3aa6fc6)
 * [Gist: camerax-tap-to-focus](https://gist.github.com/husaynhakeem/1eec93bc18ff863ae84c0acb6d406ac8#file-camerax_tap_to_focus-kt)
