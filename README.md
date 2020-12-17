@@ -107,7 +107,7 @@ For the **zoom** functionality in view images, have used **[PhotoView](https://g
 * Flash
 ```
 
-**Note 1:** Parts of this code have been referrenced from open tutorials and resources which are linked at the bottom.
+**Note 1:** Parts of this code have been referrenced from open tutorials and resources which are linked at the bottom.  
 **Note 2:** But this bundles the entire code in the form of an app which works.
 
 ## References
